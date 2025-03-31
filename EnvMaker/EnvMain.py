@@ -43,7 +43,7 @@ class EnvMain:
         self.upgradePip()
         self.installRequirements()
 
-        print(self.getEnvPythonPath())
+        # print(self.getEnvPythonPath())
 
 
     def createEnv(self) -> None:
